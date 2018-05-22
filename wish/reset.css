@@ -1,0 +1,81 @@
+ 
+ol, ul ,li{
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 重置文本格式元素 */
+a { 
+    text-decoration: none; 
+    /*color: black;*/
+}
+img {
+    display: inline-block;
+    border: 0;
+    max-width: 100%;
+}
+textarea{
+    resize:none;
+    padding: 0.12rem 0.1rem
+}
+/* 清除浮动 */
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+    overflow:hidden;
+}
+.clearfix {
+    zoom:1; /* for ie6 & ie7 */
+}
+.clear {
+    clear:both;
+    display:block;
+    font-size:0;
+    height:0;
+    line-height:0;
+    overflow:hidden;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+    outline: 0;
+}
+/*移动端去掉a标签点击效果*/
+a:active{
+
+    tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+    -o-tap-highlight-color: rgba(0, 0, 0, 0);
+    -ms-tap-highlight-color: rgba(0, 0, 0, 0);
+
+}
+/*input[type="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="radio"],
+input[type="checkbox"],
+select,
+option*/
+input[type="checkbox"]{
+    -webkit-appearance: none;
+    appearance: none;
+    -o-appearance: none;
+    outline: none;
+    border: none;
+    background: #fff;
+}

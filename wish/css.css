@@ -1,0 +1,402 @@
+ 
+
+ 
+.fl {
+	float:left
+}
+.fr {
+	float:right
+}
+
+/* history */
+.history {
+	width:100%;
+	height:22rem;
+	position:relative;
+	background:url("../images/history_bg.png") center no-repeat
+}
+.start-history {
+    height: 70rem;
+    margin: 30px auto;
+    text-align: center;
+    /* background: url(../images/history_start.png) no-repeat top center; */
+    display: block;
+    display: flex;
+    justify-content: center;
+}
+.cc_history {
+	color:#2b2b2b;
+	font-size:.36rem;
+	font-weight:400;
+	display:block;
+	padding-top:.43rem;
+}
+.next_history {
+	color:#bbb;
+	font-size:.26rem;
+	width:1.60rem;
+	margin:0 auto;
+	border-bottom:0.01rem solid #d1d1d1
+}
+.history-img {
+	height:auto;
+	width:1.30rem;
+	overflow:hidden;
+	float:left;
+}
+.history_mid {
+	width:10rem;
+	height:auto;
+	margin:0 auto;
+	background:0
+}
+.history_left {
+	width:35rem;
+	height:70rem;
+	float:left;
+	clear:left;
+	position:relative;
+	overflow:hidden;
+	right: -0.4rem;
+}
+.history_right {
+	width:35rem;
+	height:auto;
+	float:left;
+	position:relative;
+	overflow:hidden;
+	left: -0.4rem;
+}
+.history_R {
+	width:35rem;
+	height:1rem;
+	margin-left:5rem
+}
+.history_L {
+	width:35rem;
+	height:1rem;
+	float:right;
+	margin-right:5rem;
+}
+.history_r_2005 {
+	/*margin-top:157px*/
+}
+.history_2007 {
+	width:4.2rem;
+	height:1rem;
+	background:#FFF;
+	margin-top:.73rem
+}
+.history_2005_span {
+	float:left;
+	line-height:1rem;
+	font-size:.42rem;
+	color:#d43434
+}
+.history_2005_b {
+	width:2.80rem;
+	height:.58rem;
+	float:left;
+	margin-top:21px;
+	/*background:url("../images/sprites.png") center;*/
+	background-position:0 -13rem
+}
+.history_r_month {
+	float:left;
+	color:#FFF;
+	display:block;
+	width:.30rem;
+	line-height:.25rem;
+	height:.58rem;
+	border-right:0.0rem solid #FFF;
+	margin-left:.25rem
+}
+.history_r_text {
+	float:left;
+	font-size:.14rem;
+	color:#FFF;
+	display:block;
+	height:.58rem;
+	line-height:.25rem;
+	padding-left:0.05rem;
+	text-align:left
+}
+.year2006 {
+}
+.year2009 {
+	margin-top:.65rem
+}
+.year2011 {
+	margin-top:.53rem
+}
+.year211 {
+	margin-top:.43rem
+}
+.year2013 {
+	margin-top:.62rem
+}
+.yearalmost {
+	margin-top:.73rem
+}
+.yearalmostr {
+	margin-top:0.7rem
+}
+.history_2008 {
+	width:4.2rem;
+	height:1rem;
+	background:#FFF;
+	margin-top:.73rem;
+	float:right
+}
+.history_2011 {
+	width:4.2rem;
+	height:1rem;
+	background:#FFF;
+	margin-top:.43rem;
+	float:right
+}
+.history_2006_span {
+	float:right;
+	line-height:1rem;
+	font-size:.42rem;
+	color:#d43434
+}
+.history_2006_b {
+	/*width:2.80rem;*/
+	/*height:.58rem;*/
+	float:right;
+	/*margin-top:.21rem;*/
+	/*background:url("../images/sprites.png") center;*/
+	background-position:0 -12rem;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction:column;
+}
+.blue {
+	background-position:0 -14rem!important
+}
+.blue_R {
+	background-position:0 -15rem!important
+}
+.yellow {
+	background-position:0 -16rem!important
+}
+.yellow_R {
+	background-position:0 -17rem!important
+}
+.history_l_month {
+    color: #333333;
+    text-align: right;
+    font-size: 16px;
+	font-weight: 500;
+}
+
+.history_l_monthEX {
+	color: #666666;
+	text-align: right;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+span.blue {
+	color:#37779d
+}
+span.yellow {
+	color:#f76d02
+}
+.history_l_text {
+	margin-top: 0.08rem;
+    font-size: 15px;
+    color: #5C5D5D;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+}
+.history_R .history_l_text{
+	text-align: left;
+}
+.smalltext {
+	font-size:.12rem;
+	line-height:.18rem;
+}
+.smalltxt {
+	font-size:.12rem;
+}
+.month2017_5{
+	margin-top: 7.3rem;
+}
+/*时间轴左边*/
+.month2017_9{
+	margin-top: 8.5rem;
+}
+
+.month2018_5{
+	margin-top: 9.3rem;
+}
+
+.month2018_9{
+	margin-top: 11.5rem;
+}
+/*时间轴右边*/
+.history_right .history_2006_b{
+	justify-content: flex-start;
+	float: left;
+}
+.month2017_6 {
+    margin-top: 12rem;	
+}
+.month2018_1 {
+	margin-top: 14rem;
+}
+.month2018_3 {
+	margin-top: 23rem;
+}
+.month2018_3 .history_l_month,.month2018_5 .history_l_month,.month2018_7 .history_l_month,.month2018_9 .history_l_month,.month2018_92 .history_l_month,.month2018_9e .history_l_month{
+	color: #5C5D5D;
+}
+.month2018_7 {
+	margin-top: 10.8rem;
+	
+}
+.month2018_92 {
+	margin-top: 12.5rem;
+	
+}
+.month2018_9e {
+	margin-top: 12.5rem;
+	
+}
+.history_right .history_l_month{
+	text-align: left;
+	padding-right: 0;
+}
+.history_l_text{
+	display: flex;
+	display: -webkit-flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.history-img {
+    height: auto;
+    width: 5rem;
+    overflow: hidden;
+    float: left;
+}
+.pcOrPhone{
+		display:none;
+	}
+/*手机端导航*/
+@media screen and (max-width: 970px) {
+	.pcOrPhone{
+		display:block;
+	}
+	.history_l_month {
+	    /*width: 1.8rem;*/
+	    /*height: 0.9rem;*/
+	}
+	.history_l_text{
+		margin-top: 0;
+	}
+	.history_right{
+		width:13rem;
+		padding-bottom: 0.5rem;
+	}
+	.start-history{
+		width: 31rem;
+		display: flex;
+		display: -webkit-flex;
+		justify-content: center;
+		overflow-x: auto;
+	}
+	.history_R .history_l_text{
+		justify-content: flex-start;
+	}
+	.month2018_5 .history_l_text{
+		width: 13rem;
+	}
+	.month2018_5 {
+    margin-top: 7rem;
+}
+	.month2017_6 .history_l_text {
+	    width: 13rem;
+	}
+	.month2017_9 .history_2006_b {
+	    /*width:9rem;*/
+	}
+	.month2017_9 .history_l_text {
+	    width: 13rem;
+	}
+	.month2018_1 .history_l_text{
+		width: 13rem;
+}
+	.history_left {
+	    width: 13rem;
+	    padding-bottom: 0.5rem;
+	}
+	.fz-plan{
+		margin:0; 
+	}
+	.month2017_9{
+	    margin-top: 5rem;
+	}
+	.month2018_1{
+		margin-top: 6rem;
+	}
+	.month2018_9{
+		margin-top: 6rem;
+	}
+	.month2018_9 .history_l_text {
+	    width: 13rem;
+	}
+
+	.month2017_6 {
+	    margin-top: 12.5rem;
+	}
+	.month2018_3 {
+	    margin-top: 23rem;
+	}
+	.month2018_3 .history_l_text{
+		width: 13rem;
+	}
+	.month2018_7 {
+	     margin-top: 10.5rem; 
+	}
+	.month2018_7 .history_2006_b {
+	    width: 9rem;
+	}
+	.month2018_7 .history_l_text {
+	    width: 13rem;
+	}
+	.month2018_92 {
+	     margin-top: 12.6rem; 
+	}
+	.month2018_92 .history_2006_b {
+	    width: 9rem;
+	}
+	.month2018_92 .history_l_text {
+	    width: 13rem;
+	}
+	.month2018_9e {
+	     margin-top: 4rem; 
+	}
+	.month2018_9e .history_2006_b {
+	     /*width: 9rem;*/
+	}
+	.month2018_9e .history_l_text {
+	    width: 13rem;
+	}
+	.history_L {
+	    width: 13rem;
+	    height: auto;
+	    /* float: right; */
+	    margin-right: 5rem;
+	    display: flex;
+	    justify-content: flex-end;
+	}
+	.history_l_text { 
+    font-size: 12px; 
+}
+}

@@ -1,0 +1,99 @@
+/* Reset */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.item-ljp{
+	padding:15px;
+	height:300px;
+	margin-top:5px;
+	border:1px solid #ff8800;
+}
+.ljp-header .header-pic{
+	width:125px;
+	height:125px;
+	border-radius: 50%;
+	border:4px solid #ff8800;
+	float:left;
+	overflow: hidden;
+}
+.ljp-header .header-pic>img{
+	width:100%;
+	height:100%;
+	border:none;
+}
+.ljp-header .header-name{
+	font-size:24px;
+	color:#333;
+	margin:45px 0 0 20px;
+	float:left;
+}
+.ljp-text{
+	line-height: 30px;
+	text-indent: 2em;
+	font-size:16px;
+	text-align: left;
+	margin-top:20px;
+	color:#666;
+}
+.ljg-icon{
+	display: inline-block;
+}
+.ljg-icon11{
+	background:url('../images/11.png') no-repeat;
+	background-size: cover;
+	width:45px;
+	height:70px;
+}
+.ljg-icon21{
+	background:url('../images/21.png') no-repeat;
+	background-size: cover;
+	width:60px;
+	height:50px;
+}
+.ljg-icon31{
+	background:url('../images/31.png') no-repeat;
+	background-size: cover;
+	width:60px;
+	height:55px;
+}
+.ljg-icon41{
+	background:url('../images/41.png') no-repeat;
+	background-size: cover;
+	width:60px;
+	height:50px;
+}
+.ljg-icon11.ljg-iconactive{
+	background:url('../images/12.png') no-repeat;
+	background-size: cover;
+}
+.ljg-icon21.ljg-iconactive{
+	background:url('../images/22.png') no-repeat;
+	background-size: cover;
+}
+.ljg-icon31.ljg-iconactive{
+	background:url('../images/32.png') no-repeat;
+	background-size: cover;
+}
+.ljg-icon41.ljg-iconactive{
+	background:url('../images/42.png') no-repeat;
+	background-size: cover;
+}
+.services-item{
+	height:220px;
+}
